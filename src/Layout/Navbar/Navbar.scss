@@ -1,0 +1,183 @@
+// *nav-top-part*/
+.nav-top-part {
+    .top-part-left {
+        li {
+            list-style: none;
+            padding: 10px 25px 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 3;
+            color: #777;
+            transition: 0.5s;
+            &:hover {
+                color: #ff003c;
+
+            }
+        }
+    }
+}
+// .nav-top-part .top-part-left li {
+//     list-style: none;
+//     padding: 10px 25px 10px 0;
+// }
+
+// .nav-top-part .top-part-left a {
+//     text-decoration: none;
+//     font-size: 12px;
+//     font-weight: 500;
+//     line-height: 3;
+//     color: #777;
+//     transition: 0.5s;
+// }
+
+// .nav-top-part .top-part-left a:hover {
+//     color: #ff003c;
+// }
+
+.nav-top-part .top-part-right a:hover svg path {
+    fill: #ff003c;
+}
+
+.nav-top-part .top-part-right .icon a {
+    color: #ff003c;
+}
+
+.nav-top-part .top-part-right li .heart {
+    margin-right: 20px;
+}
+
+.nav-top-part .top-part-right li .heart,
+.nav-top-part .top-part-right li,
+.scale {
+    position: relative;
+}
+
+.nav-top-part .top-part-right li .heart div,
+.nav-top-part .top-part-right li .scale div {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    font-size: 12px;
+}
+
+.nav-top-part .top-part-right li.month a {
+    color: #099d0d;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-top-part .top-part-right li.call {
+    font-size: 12px;
+}
+
+.nav-top-part .top-part-right li {
+    list-style: none;
+    line-height: 3;
+    padding: 0 0 0 20px;
+}
+
+.nav-top-part .top-part-right a {
+    text-decoration: none;
+    line-height: 3;
+    font-weight: 500;
+    color: #777;
+}
+
+/*nav-bottom-part*/
+.nav-bottom-part .bar {
+    font-size: 30px;
+}
+
+.nav-bottom-part .logo a:hover svg path,
+.nav-bottom-part .menu:hover svg path,
+.nav-bottom-part .menu:hover p {
+    color: #ff003c;
+    fill: #ff003c;
+    cursor: pointer;
+}
+
+.nav-bottom-part .menu p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #282828;
+}
+
+.nav-bottom-part .serch input {
+    width: 90%;
+    outline: 1px solid #d8d8d8;
+    border-radius: 21px 0 0 21px;
+    padding: 11px 2px 11px 15px;
+    height: 45px;
+    font-size: 14px;
+    border: none;
+    display: inline-block;
+}
+
+.nav-bottom-part .serch button {
+    width: 10%;
+    outline: 1px solid #d8d8d8;
+    border-radius: 0 21px 21px 0;
+    padding: 11px 2px 11px 2px;
+    height: 45px;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: -4.5px;
+}
+
+.nav-bottom-part .serch input:focus {
+    outline: 1px solid #d8d8d8;
+}
+
+.nav-bottom-part .info li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.nav-bottom-part .info li span {
+    white-space: nowrap;
+}
+
+.nav-bottom-part .info li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-bottom-part .info li.basket {
+    position: relative;
+}
+
+.nav-bottom-part .info li.basket .count {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    background-color: white;
+    font-size: 10px;
+    color: #ff003c;
+    position: absolute;
+    width: 10px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.nav-bottom-part .info li:hover svg path {
+    fill: #ff003c;
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-bottom-part .info li.basket .count {
+        top: 0;
+        right: 5px;
+    }
+
+    .nav-bottom-part .logo svg {
+        width: 110px;
+    }
+}
