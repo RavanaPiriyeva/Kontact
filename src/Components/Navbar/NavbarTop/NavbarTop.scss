@@ -1,0 +1,70 @@
+.nav-top-part {
+    .top-part-left {
+        li {
+            list-style: none;
+            padding: 10px 25px 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 3;
+            color: #777;
+            transition: 0.5s;
+            &:hover {
+                color: #ff003c;
+            }
+        }
+    }
+
+    .top-part-right {
+        a:hover svg path {
+            fill: #ff003c;
+        }
+        .icon a {
+            color: #ff003c;
+        }
+
+        li {
+            list-style: none;
+            line-height: 3;
+            margin-left: 25px;
+        }
+        li .heart {
+            margin-right: 25px;
+        }
+        li .heart,
+        li,
+        .scale {
+            position: relative;
+        }
+        li .heart div,
+        li .scale div {
+            position: absolute;
+            top: -5px;
+            right: -8px;
+            font-size: 12px;
+        }
+        li.month a {
+            color: #099d0d;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        li.call {
+            font-size: 12px;
+        }
+        li.flag{
+            img{
+                margin-left: 10px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            line-height: 3;
+            font-weight: 500;
+            color: #777;
+        }
+    }
+}

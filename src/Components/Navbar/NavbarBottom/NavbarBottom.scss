@@ -1,0 +1,90 @@
+#nav-bottom-part {
+    padding: 20px 0;
+    .bar {
+        font-size: 30px;
+    }
+    .logo a:hover svg path,
+    .menu:hover svg path,
+    .menu:hover p {
+        color: #ff003c;
+        fill: #ff003c;
+        cursor: pointer;
+    }
+    .menu p {
+        font-size: 14px;
+        font-weight: 500;
+        color: #282828;
+        margin-left: 10px;
+    }
+    .serch {
+        align-items: center;
+        input {
+            width: 90%;
+            outline: 1px solid #d8d8d8;
+            border-radius: 21px 0 0 21px;
+            padding: 11px 2px 11px 15px;
+            height: 45px;
+            font-size: 14px;
+            border: none;
+            display: inline-block;
+            &:focus {
+                outline: 1px solid #d8d8d8;
+            }
+        }
+        button {
+            width: 10%;
+            outline: 1px solid #d8d8d8;
+            border-radius: 0 21px 21px 0;
+            padding: 11px 2px 11px 2px;
+            height: 45px;
+            font-size: 14px;
+            border: none;
+            background-color: transparent;
+            display: inline-block;
+        }
+    }
+
+    .info li.basket {
+        position: relative;
+        .count {
+            position: absolute;
+            top: 0;
+            right: 50px;
+            background-color: white;
+            font-size: 10px;
+            color: #ff003c;
+            position: absolute;
+            width: 10px;
+            text-align: center;
+            border-radius: 50%;
+        }
+    }
+    .info li {
+        list-style: none;
+        padding-left: 20px;
+        span {
+            white-space: nowrap;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        &:hover svg path {
+            fill: #ff003c;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .info li.basket .count {
+            top: 0;
+            right: 5px;
+        }
+
+        .logo svg {
+            width: 110px;
+        }
+    }
+}
+

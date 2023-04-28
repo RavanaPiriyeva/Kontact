@@ -1,91 +1,54 @@
 // *nav-top-part*/
-.nav-top-part {
-    .top-part-left {
-        li {
-            list-style: none;
-            padding: 10px 25px 10px 0;
-        }
 
-        a {
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            line-height: 3;
-            color: #777;
-            transition: 0.5s;
-            &:hover {
-                color: #ff003c;
 
-            }
-        }
-    }
-}
-// .nav-top-part .top-part-left li {
-//     list-style: none;
-//     padding: 10px 25px 10px 0;
+// .nav-top-part .top-part-right a:hover svg path {
+//     fill: #ff003c;
 // }
 
-// .nav-top-part .top-part-left a {
-//     text-decoration: none;
-//     font-size: 12px;
-//     font-weight: 500;
-//     line-height: 3;
-//     color: #777;
-//     transition: 0.5s;
-// }
-
-// .nav-top-part .top-part-left a:hover {
+// .nav-top-part .top-part-right .icon a {
 //     color: #ff003c;
 // }
 
-.nav-top-part .top-part-right a:hover svg path {
-    fill: #ff003c;
-}
+// .nav-top-part .top-part-right li .heart {
+//     margin-right: 20px;
+// }
 
-.nav-top-part .top-part-right .icon a {
-    color: #ff003c;
-}
+// .nav-top-part .top-part-right li .heart,
+// .nav-top-part .top-part-right li,
+// .scale {
+//     position: relative;
+// }
 
-.nav-top-part .top-part-right li .heart {
-    margin-right: 20px;
-}
+// .nav-top-part .top-part-right li .heart div,
+// .nav-top-part .top-part-right li .scale div {
+//     position: absolute;
+//     top: -5px;
+//     right: -8px;
+//     font-size: 12px;
+// }
 
-.nav-top-part .top-part-right li .heart,
-.nav-top-part .top-part-right li,
-.scale {
-    position: relative;
-}
+// .nav-top-part .top-part-right li.month a {
+//     color: #099d0d;
+//     font-size: 14px;
+//     font-weight: 500;
+// }
 
-.nav-top-part .top-part-right li .heart div,
-.nav-top-part .top-part-right li .scale div {
-    position: absolute;
-    top: -5px;
-    right: -8px;
-    font-size: 12px;
-}
+// .nav-top-part .top-part-right li.call {
+//     font-size: 12px;
+// }
 
-.nav-top-part .top-part-right li.month a {
-    color: #099d0d;
-    font-size: 14px;
-    font-weight: 500;
-}
+// .nav-top-part .top-part-right li {
+//     list-style: none;
+//     line-height: 3;
+//     padding: 0 0 0 20px;
+// }
 
-.nav-top-part .top-part-right li.call {
-    font-size: 12px;
-}
-
-.nav-top-part .top-part-right li {
-    list-style: none;
-    line-height: 3;
-    padding: 0 0 0 20px;
-}
-
-.nav-top-part .top-part-right a {
-    text-decoration: none;
-    line-height: 3;
-    font-weight: 500;
-    color: #777;
-}
+// .nav-top-part .top-part-right a {
+//     text-decoration: none;
+//     line-height: 3;
+//     font-weight: 500;
+//     color: #777;
+// }
 
 /*nav-bottom-part*/
 .nav-bottom-part .bar {
