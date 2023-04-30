@@ -1,0 +1,27 @@
+@mixin range {
+    width: 100%;
+    height: 3px;
+    background-color: #cccccc;
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+       // width: 0;
+        height: 5px;
+        background-color: #ff003c;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        top: -5px;
+        //left: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #ff003c;
+    }
+}

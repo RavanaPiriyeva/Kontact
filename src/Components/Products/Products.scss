@@ -1,0 +1,115 @@
+@import "../../Style/mixin.scss";
+.product {
+    position: relative;
+    .allOffer {
+        background-color: #f0f1f2;
+        width: 79%;
+        text-align: center;
+        padding: 20px 0;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        @media screen and (max-width: 1200px) {
+            width: 98%;
+        }
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 1;
+            font-weight: 700;
+            text-align: center;
+            color: #282828;
+            margin: 0 auto;
+            transition: 0.5s;
+        }
+        &:hover {
+            background-color: #dc3545;
+            cursor: pointer;
+            a {
+                color: white;
+            }
+        }
+    }
+    .product-item {
+        border: 2px solid #00000014;
+        padding: 10px 30px;
+        transition: all 0.5s;
+        .product-item-body {
+            img {
+                max-width: 100%;
+            }
+            h2 {
+                font-size: 15px;
+                font-weight: 700;
+                color: #282828;
+                text-align: center;
+                margin-bottom: 0;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                line-height: 20px;
+            }
+            .precent {
+                color: rgba(254, 2, 60, 0.91);
+                font-weight: 700;
+                font-size: 14px;
+                text-align: center;
+                padding: 30px 0;
+            }
+            .shop {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                font-size: 18px;
+                font-weight: 700;
+                color: #282828;
+                .old-prize {
+                    text-decoration: line-through;
+                    font-weight: normal;
+                    text-decoration-color: #ff003c;
+                }
+                .new-prize {
+                    color: #ff003c;
+                    padding-top: 10px;
+                }
+            }
+            .button {
+                button {
+                    width: 120px;
+                    height: 40px;
+                    font-size: 15px;
+                    background-color: #9c3;
+                    color: white;
+                    border-radius: 4px;
+                    border: none;
+                    font-weight: 700;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: #7ea82b;
+                    }
+                }
+            }
+        }
+        &:hover {
+            box-shadow: 2px 3.5px 24px 0 rgba(18, 16, 11, 0.31);
+            cursor: pointer;
+        }
+    }
+    .swiper-pagination {
+        padding: 20px;
+        position: static;
+        text-align: end;
+        bottom: -20px;
+    }
+    .swiper-pagination-bullet {
+        background-color: rgb(36, 35, 35);
+        opacity: 1;
+        &.swiper-pagination-bullet-active {
+            background-color: red;
+        }
+    }
+}

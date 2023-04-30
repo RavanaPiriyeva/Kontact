@@ -1,38 +1,59 @@
+@import "../../Style/variable.scss";
 
- .sidebar-body {
+.sidebar {
+    padding: 0 10px;
 
-    border: 2px solid #00000014;
+    li {
+        position: relative;
+        .li-item {
+            width: 0;
+            background-color:white;
+            height: 300px;
+            position: absolute;
+            left: 100%;
+            z-index: 5;
+            transition: all 0.5s;
+            top: 0;
+        }
+        &:hover {
+              .li-item {
+                width: 800px;
+            }
+        }
+      
+    }
+}
+.sidebar-body {
+    border: 2px solid $gray;
 }
 
- .sidebar-body img {
+.sidebar-body img {
     width: 25px;
 }
 
- .sidebar-body ul {
+.sidebar-body ul {
     margin: 0;
     padding: 0;
-    
 }
 
- .sidebar-body li {
+.sidebar-body li {
     list-style: none;
     display: flex;
     align-items: center;
     padding: 0 10px;
 }
 
- .sidebar-body li:hover {
+.sidebar-body li:hover {
     background-color: #eeeff2;
     cursor: pointer;
 }
 
- .sidebar-body li p {
+.sidebar-body li p {
     margin: 0 0 0 10px;
     width: 80%;
     color: #545353;
     letter-spacing: 0.3;
     font-size: 15px;
-    border-bottom: 1px solid #00000014;
+    border-bottom: 1px solid $gray;
     padding: 15px 0;
-
 }

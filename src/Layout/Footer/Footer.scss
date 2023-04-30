@@ -1,0 +1,55 @@
+.footer {
+    background-color: #253444;
+    padding: 20px 0;
+    color: white;
+    p{
+        align-items: center;
+        padding: 20px 0;
+        text-align: center;
+    }
+    &-item {
+        h3 {
+            font-weight: 700;
+            font-size: 14px;
+            padding-bottom: 20px;
+        }
+        li {
+            list-style: none;
+            padding: 2px 0;
+            a {
+                text-decoration: none;
+                font-size: 13px;
+                font-weight: 400 !important;
+                color: #fff;
+                transition: 0.5s;
+                opacity: 0.9;
+                &:hover {
+                    color: #ff003c;
+                }
+            }
+        }
+
+
+        @media screen and (max-width:992px) {
+            padding: 20px 0;
+        }
+        .contact {
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            li {
+                padding: 10px 0;
+            }
+            a {
+                font-size: 15px;
+                opacity: 1;
+                display: flex;
+                align-items: flex-start;
+            }
+            i {
+                padding-right: 10px;
+            }
+        }
+    }
+}

@@ -5,7 +5,8 @@ import { SidebarData } from '../../SidebarData'
 const SideBar = () => {
     return (
 
-        <div className="sidebar-body col-3">
+        <div className="sidebar col-lg-3 d-none d-lg-block">
+            <div className='sidebar-body'>
             <ul>
                 {
                     SidebarData.map((data) => {
@@ -14,12 +15,14 @@ const SideBar = () => {
                                 <img src={data.src} alt="img" />
                             </div>
                             <p>{data.name}</p>
+                            <div className="li-item"></div>
                         </li>)
 
                     })
                 }
 
             </ul>
+            </div>
         </div>
 
     )

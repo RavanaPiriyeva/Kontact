@@ -1,0 +1,20 @@
+@import "../../Style/variable.scss";
+
+.hero-slider {
+    border: 2px solid $gray;
+    
+    img {
+        max-width: 100%;
+    }
+}
+.swiper-button-prev,.swiper-button-next{
+    color: white;
+    font-weight: 900;
+    --swiper-navigation-size:25px;
+}
+.swiper-button-next{
+    right: 30px;
+}
+.swiper-button-prev{
+    left: 30px;
+}

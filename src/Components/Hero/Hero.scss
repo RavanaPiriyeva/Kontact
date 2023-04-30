@@ -1,3 +1,47 @@
+@import "../../Style/variable.scss";
+
 .hero{
     padding: 30px 0;
+}
+ .about {
+    padding: 20px;
+    border: 2px solid $gray;
+    margin-top: 10px;
+}
+.about-item{
+    text-align: center;
+}
+ .about .about-desc {
+    color: #444;
+    font-size: 12px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about .about-title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #253444;
+    margin-bottom: 0;
+    margin-top: 10px;
+
+}
+
+.hero-right {
+    padding: 0 10px;
+
+    @media screen and (max-width:992px) {
+        margin: 20px 0;
+    }
+
+}
+.hero-bottom{
+    div{
+        border: 2px solid $gray;
+        margin: 10px 10px 0 0;
+
+    }
+    img{
+        max-width: 100%;
+    }
 }
